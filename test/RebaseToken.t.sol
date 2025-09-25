@@ -105,7 +105,6 @@ contract RebaseTokenTest is Test {
         assertGt(balance, depositAmount);
     }
 
-
     function testCannotCallBurn() public {
         // Deposit funds
         vm.startPrank(user);

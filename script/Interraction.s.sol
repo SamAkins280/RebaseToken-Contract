@@ -4,7 +4,6 @@ pragma solidity 0.8.24;
 import {Script} from "forge-std/Script.sol";
 import {Vault} from "../src/Vault.sol";
 
-
 // ALL the script was written by  Ciara Nightingale, I SKIP EM
 contract DepositScript is Script {
     // Constant value to send during deposit (0.01 ETH)
